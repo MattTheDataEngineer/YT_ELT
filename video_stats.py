@@ -123,3 +123,5 @@ if __name__ == "__main__":
     playlistId = get_playlist_id()
     video_ids = get_video_ids(playlistId)
     extract_video_data(video_ids)
+    video_ids = get_video_ids(playlistId)
+    extract_video_data(video_ids)
